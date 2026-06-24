@@ -1,0 +1,27 @@
+name: Bug Report
+description: Report a bug in Dev-Toolkit-X
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the bug clearly.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can we trigger this?
+    validations:
+      required: true
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options:
+        - Orchestrator
+        - AI Gateway
+        - Vector Indexer
+        - Scanner
