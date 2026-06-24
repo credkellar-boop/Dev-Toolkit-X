@@ -1,0 +1,10 @@
+# Local semantic vector search
+faiss-cpu==1.7.4
+sentence-transformers==2.2.2
+
+# MCP protocol standard
+mcp==0.1.0
+
+# API serving
+fastapi==0.104.1
+uvicorn==0.24.0.post1
